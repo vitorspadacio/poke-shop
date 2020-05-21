@@ -1,0 +1,13 @@
+#shop-search {
+  input {
+    border: none;
+    font-size: 3em;
+    margin: 0.15em;
+    padding: 0.2em;
+    width: calc(100% - 0.5em);
+
+    &::placeholder {
+      opacity: 0.1;
+    }
+  }
+}

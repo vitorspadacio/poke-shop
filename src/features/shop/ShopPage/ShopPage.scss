@@ -1,5 +1,10 @@
 #shop-page {
   display: flex;
+  flex-wrap: wrap;
+
+  #shop-search {
+    width: 100%;
+  }
 
   #shop-list {
     width: 75%;
