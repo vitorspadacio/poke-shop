@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import Actions from '../HomeActions'
+import ShopList from '../../shop/ShopList'
 
 export default () => {
   const dispatch = useDispatch()
@@ -15,6 +16,7 @@ export default () => {
       <h2>{texto}</h2>
       <h3>{reduxState.texto}</h3>
       <button type='button' onClick={() => mudarTexto()}>Muda texto</button>
+      <ShopList />
     </>
   )
 }

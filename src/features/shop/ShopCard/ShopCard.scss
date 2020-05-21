@@ -1,0 +1,18 @@
+.shop-card {
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  margin: 0.5em;
+  width: calc(20% - 1.5em);
+
+  img {
+    height: 96px;
+    width: 96px;
+  }
+
+  strong {
+    text-transform: capitalize;
+  }
+}

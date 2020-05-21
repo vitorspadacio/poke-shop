@@ -1,0 +1,27 @@
+#shop-cart {
+  display: flex;
+  flex-direction: column;
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      align-items: center;
+      display: flex;
+
+      img {
+        margin-right: 0.5em;
+      }
+
+      .info {
+        display: flex;
+        flex-direction: column;
+
+        strong {
+          text-transform: capitalize;
+        }
+      }
+    }
+  }
+}
