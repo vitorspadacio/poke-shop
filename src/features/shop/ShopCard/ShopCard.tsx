@@ -22,11 +22,10 @@ export default ({
   }
 
   return (
-    <section className='shop-card'>
+    <section className='shop-card' onClick={() => handleClick(id)}>
       <img src={image} alt={name} />
       <strong>{name}</strong>
       <span>{formattedPrice()}</span>
-      <button type='button' onClick={() => handleClick(id)}>Comprar</button>
     </section>
   )
 }
