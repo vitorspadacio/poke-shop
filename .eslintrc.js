@@ -17,6 +17,8 @@ module.exports = {
     'react/jsx-one-expression-per-line': [0],
     'react/prop-types': [0],
     'semi': ['error', 'never'],
+    'jsx-a11y/no-noninteractive-element-interactions': [0],
+    'jsx-a11y/click-events-have-key-events': [0],
   },
   env: { browser: true, jest: true },
   settings: {
